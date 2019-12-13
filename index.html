@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>new love</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $("#hide").click(function () {
+            $("p").hide();
+        });
+        $(document).ready(function () {
+            $("#show").click(function () {
+                $("p").show();
+            })
+        })
+    })
+</script>
+<p>if you click on the "hide" button, i will disappear</p>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+</body>
+</html>

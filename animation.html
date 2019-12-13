@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>anichan</title>
+
+</head>
+<body>
+<div style="width: 400px; height: 400px ; color: orangered ; position: relative ; background: blue">em ơi rơi đồ kìa</div>
+<button id="animation">touch me</button>
+<script>
+    $(function () {
+        $("#animation").click(function () {
+            $("div").animate({left:'250px'},"fast");
+            $("div").animate({fontSize:'50px'},"fast");
+        })
+    })
+</script>
+</body>
+</html>
